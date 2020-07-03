@@ -1,0 +1,42 @@
+ * {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.grid-container{
+			  display: grid;
+			  grid-template-columns: auto auto;
+ 			  grid-template-rows: auto;
+ 			  grid-gap: 10px;
+			  padding: 10px;
+			  justify-content: center;
+		}
+
+		.grid-container > div {
+			  background-color: #00BFFF;
+			  border: 100px;
+			  text-align: center;
+  			  padding: 20px ;
+ 			  font-size: 20px;
+border: 12px solid rgba(0, 191, 255, 0.8);
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+		}
+.container{
+		position: relative;
+		text-align: center;
+		color: white;
+		  background-image: url("WT(image1).jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
